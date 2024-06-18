@@ -21,8 +21,7 @@ public class OperacionesTest {
 		int b= 4;
 		int result = operaciones.sumar(a, b);
 		
-		assertEquals(9, result);
-		
+		assertEquals(9, result);	
 		
 	}
 	
@@ -54,8 +53,8 @@ public class OperacionesTest {
 		int a= 5;
 		int b= 4;
 		
-		Double result = operaciones.dividir(a, b);
-		assertEquals(1,25, result);
+		double result = operaciones.dividir(a, b);
+		assertEquals((a/b), result);
 	}
 	
 

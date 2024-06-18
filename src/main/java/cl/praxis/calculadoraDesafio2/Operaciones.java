@@ -4,22 +4,22 @@ public class Operaciones {
 
 	
 	public int sumar(int a, int b) {
-		
-		return 0;
+		int result = a+b;
+		return result;
 		
 		
 	}
 	public int restar(int a, int b) {
-		
-		return 0;
+		int result = a-b;
+		return result;
 	}
 	public int multiplicar(int a, int b) {
-		
-		return 0;
+		int result = a*b;
+		return result;
 	}
-	public Double  dividir(int a, int b) {
-		
-		return 0.0;
+	public double  dividir(double a, double b) {
+		double result = a/b;
+		return result;
 	}
 
 	
